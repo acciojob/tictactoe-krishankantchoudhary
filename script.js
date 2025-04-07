@@ -40,7 +40,7 @@
       cell.textContent = currentSymbol;
 
       if (checkWin()) {
-        message.textContent = `${currentPlayer}, congratulations you won!`;
+        message.textContent = `${currentPlayer} congratulations you won!`;
         gameActive = false;
         return;
       }
