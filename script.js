@@ -52,11 +52,11 @@
       }
 
       // Switch turn
-      if (currentSymbol === "X") {
-        currentSymbol = "O";
+      if (currentSymbol === "x") {
+        currentSymbol = "o";
         currentPlayer = player2;
       } else {
-        currentSymbol = "X";
+        currentSymbol = "x";
         currentPlayer = player1;
       }
 
@@ -73,7 +73,7 @@
       }
 
       currentPlayer = player1;
-      currentSymbol = "X";
+      currentSymbol = "x";
       message.textContent = `${currentPlayer}, you're up`;
       playerInputs.style.display = "none";
       board.style.display = "block";
